@@ -1,0 +1,266 @@
+#main-p, #main-p2,#main-p3,#main-p4{
+	padding:30px 30px;
+	background:url("../img/opacitywhite.png") repeat;
+	margin-top:5px;
+	border-radius:10px;
+	line-height:1.5em;
+	font-size:1.2em;
+	text-align:right;
+	/*height:400px;*/
+	z-index:0;
+}
+.nav-bot2{
+	padding:30px 30px;
+	background:url("../img/opacitywhite.png") repeat;
+	margin-top:30px;
+	border-radius:10px;
+	margin-bottom:70px;
+	font-size:1.2em;
+	text-align:right;
+}
+#main-p5{
+	padding:30px 10px;
+	background:url("../img/opacitywhite.png") repeat;
+	margin-top:5px;
+	border-radius:10px;
+	
+	font-size:1.2em;
+	text-align:right;
+	height:390px;
+	z-index:0;
+}
+#bg{padding:30px 30px;}
+#main-p6{
+	padding:30px 30px;
+	background:url("../img/opacitywhite1.png") repeat;
+	margin-top:5px;
+	border-radius:10px;
+	line-height:1.5em;
+	font-size:1.2em;
+	text-align:right;
+	margin-bottom:70px;
+	padding-bottom:50px;
+	z-index:0;
+}
+.box{ z-index:10}
+#page-title{
+	text-align:right;
+}
+#wrapper{
+	padding-top:50px;
+}
+body{
+	background:#aaa;
+	font-family: yekan;
+	background:#fff url(../img/bg.jpg) 100% 100% no-repeat;
+	-webkit-font-smoothing: antialiased;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#nav-bot{
+	background:url("../img/opacitywhite.png") repeat;
+	margin-top:30px;
+	border-radius:10px;
+	margin-bottom:70px;
+}
+
+#nav-bot1{
+	background:#ff6737;
+	margin-top:30px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+
+
+#nav-bot ul {
+	padding:10px 5px 0px 5px;
+}
+#nav-bot ul li{
+	list-style:none;
+	display:inline;
+	padding: 10px 4%;
+	padding-top:15px;
+	text-align:center;
+	font-size:1.3em;
+}
+
+#nav-bot1 ul li{
+	list-style:none;
+	display:inline;
+	padding: 11px 5%;
+	padding-top: 15px;
+	text-align:center;
+	font-size: 1.3em;
+}
+
+#nav-bot ul li a{
+	color:black;
+}
+
+#nav-bot1 ul li a{
+	color:#fff;
+}
+
+#nav-bot ul li a:hover{
+	text-decoration:none;
+	color:#ff6600;
+}
+
+#nav-bot1 ul li a:hover{
+	text-decoration:none;
+	color:#000 !important;
+}
+
+.btn.btn-block.btn-primary{
+	padding:5px;
+	font-size:1.4em;
+	line-height:2em;
+}
+
+@font-face{
+	font-family:'yekan';
+	font-style:normal;
+	font-weight:300;
+	src:url(../fonts/fa/yekan/yekan.woff) , url(../fonts/fa/yekan/yekan.eot) , url(../fonts/fa/yekan/yekan.ttf);
+}
+
+
+.btn#right-button{
+	border-radius:10px;
+	background-color:#f6313e;
+	border-color:#f6313e;
+	margin-top:10px;
+}
+
+.btn#left-button{
+	border-radius:10px;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color:black;
+	margin-top:10px;
+}
+.btn#right-button:hover{
+	border-radius:10px;
+	background-color: #f2636c;
+
+}
+.btn#left-button:hover{
+	border-radius:10px;
+	background-color: #eef9ff;
+}
+#cities{
+	font-size:1.4em;
+	line-height:2em;
+	background: #E6973A;
+	margin-top:40px;
+	border-radius:10px;
+	color:black;
+	text-align:right;
+	color: #000000;
+}
+
+#cities ul li{	
+	list-style:none;
+	display:inline;
+	text-align:center;
+}
+#correct{
+	text-align:left;
+}
+h1,h2{
+	color:#000;
+}
+h3{
+	color:#fff;
+}
+h4{ color:#f2636c;
+font-size:20px;}
+
+@media (min-width: 768px){
+	#rcity{
+		text-align:left !important;
+	}
+	#lcity{
+		text-align:right !important;
+	}
+}
+h1{
+	font-size:3em;
+	font-weight:bold;
+}
+
+.large{
+	font-size:5em;
+	font-weight:bold;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:40px;
+	background:black;	
+	text-align:center;
+	direction:rtl;
+
+}
+
+.copyright{
+	color:white;
+	letter-spacing: 1px;
+	font-size:17px;
+	line-height: 40px;
+}
+.copyright a{
+	color:white;
+}
+.copyright a:hover{
+	color:#85e2e7;
+}
+
+#left-button a:focus, a:hover {
+    color: black !important;
+    text-decoration :none;
+}
+#left-button a {
+color:black !important;
+}
+
+
+#right-button a:focus, a:hover {
+    color: white !important;
+    text-decoration :none;
+}
+#right-button a {
+color:white !important;
+}
+.slider-mockUp{
+	width: 200px;
+	background-image:url('../img/iphone-2.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding: 19px 18px;
+	margin-left: 22%;
+
+}
+.slider-mockUp .carousel{
+	margin: 20px 0px;
+}
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img{
+	height: 300px;
+}
+.form-wrapper { position:relative;
+    box-sizing: border-box;
+
+}
+.form-wrapper .form{ overflow:hidden;}
+.form-content {
+    position: relative;
+    background-color: rgba(10, 24, 56, 0.2);
+    min-height: 200px;
+    padding: 10px 35px 30px 35px;
+}
+.sep { margin:5px 0px;}
